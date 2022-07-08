@@ -1,0 +1,35 @@
+/* Add your customizations of theme here */
+body a {
+  color: #0155a0;
+  text-decoration: none; }
+body a:active {
+  color: #ece8da; }
+body .ui-selectonemenu .ui-selectonemenu-trigger {
+  background: $primaryColor;
+}
+body .ui-panel .ui-panel-titlebar .ui-panel-titlebar-icon {
+  color: $primaryColor;
+}
+body .ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+  color: #ffffff;
+}
+body .ui-state-disabled,
+body .ui-widget-content .ui-state-disabled,
+body .ui-widget-header .ui-state-disabled {
+  opacity: .90 !important;
+}
+
+body .ui-datatable thead th {
+  vertical-align: bottom;
+}
+body .ui-panelgrid {
+  width: 100%;
+}
+
+body .ui-sticky {
+  top: 111px !important;
+}
+
+body .ui-tree .ui-treenode-content.ui-tree-selectable .ui-chkbox.ui-selection {
+  margin-right: 8px;
+}
