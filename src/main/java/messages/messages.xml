@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<messages>
+    <message code="100" type="404">
+        <en>Enter password</en>
+        <ar>ادخل الرمز المرور</ar>
+    </message>
+    <message code="101" type="404">
+        <en>Enter User name</en>
+        <ar>ادخل اسم  المستخدم</ar>
+    </message>
+    
+</messages>
+

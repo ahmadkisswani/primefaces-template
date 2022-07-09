@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+    
+    <application>
+  
+        <locale-config>
+         <default-locale>English</default-locale>
+      
+         <supported-locale>Arabic</supported-locale>
+      </locale-config>
+      
+      <resource-bundle>
+         <base-name>local.English</base-name>
+         <var>msg</var>
+      </resource-bundle>
+    </application>
+    <name>primefaces_poseidon</name>
+    
+   
+    <lifecycle>
+        <phase-listener id="nocache">util.CacheControlPhaseListener</phase-listener>
+    </lifecycle>
+   
+    
+</faces-config>
